@@ -8,3 +8,9 @@ This is a working EFI/Clover configuration complete with config.plist and applic
 * Crucial MX300 275GB M.2-2280 Solid State Drive
 * Gigabyte GeForce GTX 1050Ti
 * Corsair SF 450W 80+ Gold Certified Fully-Modular SFX Power Supply
+
+## Working
+* Displayport Dual monitor
+* APFS
+* Sleep
+* Audio
