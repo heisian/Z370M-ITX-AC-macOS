@@ -1,6 +1,8 @@
 # Z370-ITX-AC-macOS
 This is a working EFI/Clover configuration complete with config.plist and applicable kexts for macOS 10.13.
 
+PC Part Picker build: https://pcpartpicker.com/b/8zFtt6
+
 ## System Specs
 * ASRock Z370M-ITX/ac
 * Intel i7-8700K 3.7GHz
