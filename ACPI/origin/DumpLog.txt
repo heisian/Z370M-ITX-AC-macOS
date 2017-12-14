@@ -1,0 +1,162 @@
+5:288  0:028  Found BIOS RSDP at F0010
+5:288  0:000  Printing ACPI tables from RSDP F0010 ...
+5:288  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:288  0:000    (Xsdt: 9640C0A0, Rsdt: 9640C028)
+5:288  0:000    9640C0A0: 'XSDT', 'A M I', Rev: 1, Len: 196
+5:288  0:000    9640C028: 'RSDT', 'A M I', Rev: 1, Len: 116
+5:288  0:000    Tables in Xsdt: 20
+5:288  0:000    0. 9642EEC0: 'FACP', 'A M I', Rev: 6, Len: 276
+5:288  0:000        (Dsdt: 9640C200, Facs: 96476F00, XDsdt: 9640C200, XFacs: 0)
+5:288  0:000        9640C200: 'DSDT', 'A M I', Rev: 2, Len: 142521
+5:290  0:001        96476F00: 'FACS', Ver: 2, Len: 64
+5:290  0:000    1. 9642EFD8: 'APIC', 'A M I', Rev: 3, Len: 244
+5:290  0:000    2. 9642F0D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:290  0:000    3. 9642F118: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:290  0:000    4. 9642F1B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:290  0:000    5. 9642F1F8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+5:290  0:000    6. 9642F5A0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 477
+5:290  0:000    7. 9642F780: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+5:290  0:000    8. 964328D8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+5:290  0:000    9. 96434DA0: 'HPET', 'KBL', Rev: 1, Len: 56
+5:290  0:000    10. 96434DD8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2604
+5:290  0:000    11. 96435808: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:290  0:000    12. 96435850: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:290  0:000    13. 96437000: 'LPIT', 'KBL', Rev: 1, Len: 148
+5:290  0:000    14. 96437098: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:290  0:000    15. 964371E0: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+5:290  0:000    16. 964376F8: 'DBGP', '', Rev: 1, Len: 52
+5:290  0:000    17. 96437730: 'DBG2', '', Rev: 0, Len: 84
+5:290  0:000    18. 96437788: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:290  0:000    19. 964377C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:290  0:000    Tables in Rsdt: 20
+5:290  0:000    0. 9640C178: 'FACP', 'A M I', Rev: 2, Len: 132
+5:290  0:000        (Dsdt: 9640C200, Facs: 96476EC0)
+5:290  0:000        9640C200: 'DSDT', 'A M I', Rev: 2, Len: 142521
+5:291  0:001        96476EC0: 'FACS', Ver: 0, Len: 64
+5:291  0:000    1. 9642EFD8: 'APIC', 'A M I', Rev: 3, Len: 244
+5:291  0:000    2. 9642F0D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:291  0:000    3. 9642F118: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:291  0:000    4. 9642F1B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:291  0:000    5. 9642F1F8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+5:291  0:000    6. 9642F5A0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 477
+5:291  0:000    7. 9642F780: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+5:291  0:000    8. 964328D8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+5:291  0:000    9. 96434DA0: 'HPET', 'KBL', Rev: 1, Len: 56
+5:291  0:000    10. 96434DD8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2604
+5:291  0:000    11. 96435808: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:291  0:000    12. 96435850: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:291  0:000    13. 96437000: 'LPIT', 'KBL', Rev: 1, Len: 148
+5:291  0:000    14. 96437098: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:291  0:000    15. 964371E0: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+5:291  0:000    16. 964376F8: 'DBGP', '', Rev: 1, Len: 52
+5:291  0:000    17. 96437730: 'DBG2', '', Rev: 0, Len: 84
+5:291  0:000    18. 96437788: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:291  0:000    19. 964377C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:291  0:000  Found UEFI Acpi 2.0 RSDP at 9640C000
+5:291  0:000  Saving ACPI tables from RSDP 9640C000 to EFI\CLOVER\ACPI\origin ...
+5:291  0:000   9640C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:320  0:028    (Xsdt: 9640C0A0, Rsdt: 9640C028)
+5:320  0:000    9640C0A0: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+5:348  0:028    9640C028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+5:377  0:028    Tables in Xsdt: 20
+5:377  0:000    0. 9642EEC0: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+5:406  0:028        (Dsdt: 9640C200, Facs: 96476F00, XDsdt: 9640C200, XFacs: 0)
+5:406  0:000        9640C200: 'DSDT', 'A M I', Rev: 2, Len: 142521
+5:408  0:001        96476F00: 'FACS', Ver: 2, Len: 64
+5:408  0:000    1. 9642EFD8: 'APIC', 'A M I', Rev: 3, Len: 244
+5:408  0:000    2. 9642F0D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:408  0:000    3. 9642F118: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:408  0:000    4. 9642F1B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:408  0:000    5. 9642F1F8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+5:408  0:000    6. 9642F5A0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 477
+5:408  0:000    7. 9642F780: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+5:408  0:000    8. 964328D8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+5:408  0:000    9. 96434DA0: 'HPET', 'KBL', Rev: 1, Len: 56
+5:408  0:000    10. 96434DD8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2604
+5:408  0:000    11. 96435808: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:408  0:000    12. 96435850: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:408  0:000    13. 96437000: 'LPIT', 'KBL', Rev: 1, Len: 148
+5:408  0:000    14. 96437098: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:408  0:000    15. 964371E0: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+5:408  0:000    16. 964376F8: 'DBGP', '', Rev: 1, Len: 52
+5:408  0:000    17. 96437730: 'DBG2', '', Rev: 0, Len: 84
+5:408  0:000    18. 96437788: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:408  0:000    19. 964377C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:408  0:000    Tables in Rsdt: 20
+5:408  0:000    0. 9640C178: 'FACP', 'A M I', Rev: 2, Len: 132
+5:408  0:000        (Dsdt: 9640C200, Facs: 96476EC0)
+5:408  0:000        9640C200: 'DSDT', 'A M I', Rev: 2, Len: 142521
+5:409  0:001        96476EC0: 'FACS', Ver: 0, Len: 64
+5:409  0:000    1. 9642EFD8: 'APIC', 'A M I', Rev: 3, Len: 244
+5:409  0:000    2. 9642F0D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:409  0:000    3. 9642F118: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:409  0:000    4. 9642F1B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:409  0:000    5. 9642F1F8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+5:409  0:000    6. 9642F5A0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 477
+5:409  0:000    7. 9642F780: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+5:409  0:000    8. 964328D8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+5:409  0:000    9. 96434DA0: 'HPET', 'KBL', Rev: 1, Len: 56
+5:409  0:000    10. 96434DD8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2604
+5:409  0:000    11. 96435808: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:409  0:000    12. 96435850: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:409  0:000    13. 96437000: 'LPIT', 'KBL', Rev: 1, Len: 148
+5:409  0:000    14. 96437098: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:409  0:000    15. 964371E0: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+5:409  0:000    16. 964376F8: 'DBGP', '', Rev: 1, Len: 52
+5:409  0:000    17. 96437730: 'DBG2', '', Rev: 0, Len: 84
+5:409  0:000    18. 96437788: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:409  0:000    19. 964377C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:409  0:000  Found UEFI Acpi 1.0 RSDP at 9640C000
+5:409  0:000  Printing ACPI tables from RSDP 9640C000 ...
+5:409  0:000   9640C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:409  0:000    (Xsdt: 9640C0A0, Rsdt: 9640C028)
+5:409  0:000    9640C0A0: 'XSDT', 'A M I', Rev: 1, Len: 196
+5:409  0:000    9640C028: 'RSDT', 'A M I', Rev: 1, Len: 116
+5:409  0:000    Tables in Xsdt: 20
+5:409  0:000    0. 9642EEC0: 'FACP', 'A M I', Rev: 6, Len: 276
+5:409  0:000        (Dsdt: 9640C200, Facs: 96476F00, XDsdt: 9640C200, XFacs: 0)
+5:409  0:000        9640C200: 'DSDT', 'A M I', Rev: 2, Len: 142521
+5:411  0:001        96476F00: 'FACS', Ver: 2, Len: 64
+5:411  0:000    1. 9642EFD8: 'APIC', 'A M I', Rev: 3, Len: 244
+5:411  0:000    2. 9642F0D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:411  0:000    3. 9642F118: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:411  0:000    4. 9642F1B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:411  0:000    5. 9642F1F8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+5:411  0:000    6. 9642F5A0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 477
+5:411  0:000    7. 9642F780: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+5:411  0:000    8. 964328D8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+5:411  0:000    9. 96434DA0: 'HPET', 'KBL', Rev: 1, Len: 56
+5:411  0:000    10. 96434DD8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2604
+5:411  0:000    11. 96435808: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:411  0:000    12. 96435850: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:411  0:000    13. 96437000: 'LPIT', 'KBL', Rev: 1, Len: 148
+5:411  0:000    14. 96437098: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:411  0:000    15. 964371E0: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+5:411  0:000    16. 964376F8: 'DBGP', '', Rev: 1, Len: 52
+5:411  0:000    17. 96437730: 'DBG2', '', Rev: 0, Len: 84
+5:411  0:000    18. 96437788: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:411  0:000    19. 964377C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+5:411  0:000    Tables in Rsdt: 20
+5:411  0:000    0. 9640C178: 'FACP', 'A M I', Rev: 2, Len: 132
+5:411  0:000        (Dsdt: 9640C200, Facs: 96476EC0)
+5:411  0:000        9640C200: 'DSDT', 'A M I', Rev: 2, Len: 142521
+5:413  0:001        96476EC0: 'FACS', Ver: 0, Len: 64
+5:413  0:000    1. 9642EFD8: 'APIC', 'A M I', Rev: 3, Len: 244
+5:413  0:000    2. 9642F0D0: 'FPDT', 'A M I', Rev: 1, Len: 68
+5:413  0:000    3. 9642F118: 'FIDT', 'A M I', Rev: 1, Len: 156
+5:413  0:000    4. 9642F1B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+5:413  0:000    5. 9642F1F8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+5:413  0:000    6. 9642F5A0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 477
+5:413  0:000    7. 9642F780: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+5:413  0:000    8. 964328D8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+5:413  0:000    9. 96434DA0: 'HPET', 'KBL', Rev: 1, Len: 56
+5:413  0:000    10. 96434DD8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2604
+5:413  0:000    11. 96435808: 'UEFI', 'A M I', Rev: 1, Len: 66
+5:413  0:000    12. 96435850: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:413  0:000    13. 96437000: 'LPIT', 'KBL', Rev: 1, Len: 148
+5:413  0:000    14. 96437098: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:413  0:000    15. 964371E0: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+5:413  0:000    16. 964376F8: 'DBGP', '', Rev: 1, Len: 52
+5:413  0:000    17. 96437730: 'DBG2', '', Rev: 0, Len: 84
+5:413  0:000    18. 96437788: 'BGRT', 'A M I', Rev: 1, Len: 56
+5:413  0:000    19. 964377C0: 'WSMT', 'A M I', Rev: 1, Len: 40
