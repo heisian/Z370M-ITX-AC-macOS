@@ -3,6 +3,9 @@ This is a working EFI/Clover configuration complete with config.plist and applic
 
 PC Part Picker build: https://pcpartpicker.com/b/8zFtt6
 
+## macOS version
+`10.13.3`
+
 ## System Specs
 * ASRock Z370M-ITX/ac
 * Intel i7-8700K 3.7GHz
@@ -16,6 +19,7 @@ PC Part Picker build: https://pcpartpicker.com/b/8zFtt6
 * NVIDIA web drivers: https://images.nvidia.com/mac/pkg/387/WebDriver-387.10.10.10.25.156.pkg
   * You may experience some minor lag with NVIDIA's latest drivers (*.156)
   * This was also a minor issue with *.104, however usability is still excellent.
+* SmUUID and Serial Number generation for iMessage. Search the forums!
 
 ## Working
 * Displayport Dual 4k monitors
