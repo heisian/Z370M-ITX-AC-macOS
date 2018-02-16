@@ -79,25 +79,29 @@
 				<false/>
 				<key>PStates</key>
 				<false/>
+				<key>PluginType</key>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 darkwake=8</string>
+		<string>dart=0 darkwake=8 kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Log</key>
 		<true/>
+		<key>NeverHibernate</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>4</integer>
 		<key>XMPDetection</key>
-		<false/>
+		<string>Yes</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -130,7 +134,7 @@
 			<key>FixOwnership</key>
 			<true/>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
@@ -165,9 +169,9 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>3840x2160</string>
 		<key>Theme</key>
-		<string>High Sierra</string>
+		<string>One</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -199,6 +203,48 @@
 		<false/>
 		<key>KextsToPatch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>t1-10.12-10.13-AppleHDA-Realtek-ALC...(cloverALC-all_codecs)</string>
+				<key>Find</key>
+				<data>
+				ihnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>t1-10.8-10.13-AppleHDA-Realtek-ALC892</string>
+				<key>Find</key>
+				<data>
+				ixnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				kgjsEA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>t1-AppleHDA-Resources-xml&gt;zml-(cloverALC-all_codecs)</string>
+				<key>Find</key>
+				<data>
+				eG1sLnps
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				em1sLnps
+				</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
@@ -255,19 +301,17 @@
 		<string>0x0</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
-		<key>ROM</key>
-		<data>
-		ZLlU8E/g
-		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>12/22/2017</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02722310QXFF4NUE</string>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
@@ -289,20 +333,20 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02VR20WJ1GJ</string>
+		<string>C02TT1ZYJ1GJ</string>
 		<key>SmUUID</key>
-		<string>055E11D3-FC6A-4926-BC4F-66585EF04FE0</string>
+		<string>FAC371D7-95C7-41E5-8255-18B1E89D2761</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>YES</string>
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NvidiaWeb</key>
-		<false/>
+		<true/>
 	</dict>
 </dict>
 </plist>
