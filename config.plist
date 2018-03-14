@@ -83,11 +83,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>shikigva=1 dart=0 kext-dev-mode=1 darkwake=8</string>
+		<string>shikigva=1 dart=0 kext-dev-mode=1 darkwake=10</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<true/>
+		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Log</key>
@@ -99,7 +99,7 @@
 		<key>Timeout</key>
 		<integer>4</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<false/>
 	</dict>
 	<key>CPU</key>
 	<dict>
