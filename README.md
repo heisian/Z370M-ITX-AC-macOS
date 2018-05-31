@@ -1,16 +1,15 @@
 # Z370-ITX-AC-macOS
-This is a working EFI/Clover configuration complete with config.plist and applicable kexts for macOS 10.12.6.
+This is a working EFI/Clover configuration complete with config.plist and applicable kexts for macOS 10.13.4.
 
 PC Part Picker build: https://pcpartpicker.com/b/8zFtt6
 
 ## macOS version
-~~`10.13.3`~~ `10.12.6`
+`10.13.4 (17E199)`
 
-**NOTE:** I previously published config for 10.13.3, however due to the current
-NVIDIA drivers causing massive lag, and the inability to get older versions
-of the drivers to boot, I have downgraded to 10.12.6. This is the current
-config that gives the best performance for _this hardware config_.
-If the NVIDIA drivers for 10.13.3 ever get fixed, I will publish an update here.
+**NOTE:** For *best graphical performance*, you should *connect all displays to
+the NVIDIA card*. If you also use the Intel 630 UHD graphics, you will experience
+lagging - likely due to macOS's inability to correctly provision rendering
+duties to each GPU at the appropriate times.
 
 ## System Specs
 * ASRock Z370M-ITX/ac
@@ -23,15 +22,15 @@ If the NVIDIA drivers for 10.13.3 ever get fixed, I will publish an update here.
 
 ## Post-install
 * Audio install script: https://github.com/toleda/audio_CloverALC/blob/master/audio_cloverALC-130_v0.4.command
-* NVIDIA web drivers: https://images.nvidia.com/mac/pkg/378/WebDriver-378.05.05.25f06.pkg
+* NVIDIA web drivers: Latest (387.10.10.10.30.106)
 * SmUUID and Serial Number generation for iMessage. Search the forums!
 
 ## Working
 * Displayport Dual 4k monitors
-* ~~APFS~~ (Worked in 10.13.3 config)
+* APFS
 * Sleep
 * Audio
-* ~~FileVault~~ (Worked in 10.13.3 config)
+* FileVault (with UsbKbDxe, included)
 
 The motherboard's built-in Bluetooth and WiFi module does NOT work with macOS.
 You will need to get a compatible module for the M.2 slot, or use a USB
