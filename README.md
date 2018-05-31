@@ -4,7 +4,7 @@ This is a working EFI/Clover configuration complete with config.plist and applic
 PC Part Picker build: https://pcpartpicker.com/b/8zFtt6
 
 ## macOS version
-`10.13.4 (17E199)`
+`10.13.4 (17E202)`
 
 **NOTE:** For *best graphical performance*, you should *connect all displays to
 the NVIDIA card*. If you also use the Intel 630 UHD graphics, you will experience
@@ -22,7 +22,7 @@ duties to each GPU at the appropriate times.
 
 ## Post-install
 * Audio install script: https://github.com/toleda/audio_CloverALC/blob/master/audio_cloverALC-130_v0.4.command
-* NVIDIA web drivers: Latest (387.10.10.10.30.106)
+* NVIDIA web drivers: Latest (387.10.10.10.30.107)
 * SmUUID and Serial Number generation for iMessage. Search the forums!
 
 ## Working
