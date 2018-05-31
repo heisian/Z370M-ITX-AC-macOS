@@ -4,13 +4,10 @@ This is a working EFI/Clover configuration complete with config.plist and applic
 PC Part Picker build: https://pcpartpicker.com/b/8zFtt6
 
 ## macOS version
-~~`10.13.3`~~ `10.12.6`
+`10.12.6`
 
-**NOTE:** I previously published config for 10.13.3, however due to the current
-NVIDIA drivers causing massive lag, and the inability to get older versions
-of the drivers to boot, I have downgraded to 10.12.6. This is the current
-config that gives the best performance for _this hardware config_.
-If the NVIDIA drivers for 10.13.3 ever get fixed, I will publish an update here.
+**NOTE**: With 10.12.x you can NOT get 60Hz @ 4K through HDMI, even with 2.0.
+Only High Sierra (10.13.x) has support for 60Hz through HDMI 2.0 @ 4K.
 
 ## System Specs
 * ASRock Z370M-ITX/ac
@@ -28,10 +25,8 @@ If the NVIDIA drivers for 10.13.3 ever get fixed, I will publish an update here.
 
 ## Working
 * Displayport Dual 4k monitors
-* ~~APFS~~ (Worked in 10.13.3 config)
 * Sleep
 * Audio
-* ~~FileVault~~ (Worked in 10.13.3 config)
 
 The motherboard's built-in Bluetooth and WiFi module does NOT work with macOS.
 You will need to get a compatible module for the M.2 slot, or use a USB
