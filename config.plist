@@ -14,6 +14,10 @@
 			<dict>
 				<key>FixShutdown</key>
 				<false/>
+				<key>FixTMR</key>
+				<false/>
+				<key>FixWAK</key>
+				<false/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -76,14 +80,14 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 darkwake=8</string>
+		<string>-v dart=0 darkwake=8 kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>HACKMAC</string>
 		<key>HibernationFixup</key>
@@ -100,11 +104,6 @@
 		<integer>4</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
-	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>Type</key>
-		<string>0x1005</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -126,7 +125,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>1</string>
+			<integer>1</integer>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -353,17 +352,21 @@
 		<string>0x0</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<data>
+		4j9snSdh
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/02/2018</string>
+		<string>04/09/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>IM183.88Z.0158.B00.1804091704</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02T13YIJ1GJ9C2ED</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -377,7 +380,7 @@
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xF80FE137</string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -387,13 +390,9 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>00x0</string>
+		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
-		<key>SerialNumber</key>
-		<string>C02T13YIJ1GJ</string>
-		<key>SmUUID</key>
-		<string>FAC371D7-95C7-41E5-8255-18B1E89D2761</string>
+		<string>iMac19,1</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
