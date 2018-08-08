@@ -21,7 +21,7 @@ duties to each GPU at the appropriate times.
 * IOGEAR Bluetooth 4.0 USB Micro Adapter, GBU521
 
 ## Post-install
-* Audio install script: https://github.com/toleda/audio_CloverALC/blob/master/audio_cloverALC-130_v0.4.command
+* Audio install script: https://github.com/toleda/audio_CloverALC/blob/master/audio_cloverALC-130.command.zip
 * NVIDIA web drivers: Latest (387.10.10.10.30.107)
 * SmUUID and Serial Number generation for iMessage. Search the forums!
 
